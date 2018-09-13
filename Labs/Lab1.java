@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Lab 
+public class Lab1 
 {
 	public static void main(String args[]) throws FileNotFoundException
 	{
