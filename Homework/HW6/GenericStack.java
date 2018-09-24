@@ -18,13 +18,15 @@ class GenericStack<E>
 	
 	public E peek() 
 	{
-		if (last == -1) return null;
+		if (last == -1) 
+			return null;
 		return arr[last];
 	}
 	
 	public E pop() 
 	{
-		if (last == -1) return null;
+		if (last == -1) 
+			return null;
 		E e = arr[last--];
 		return e;
 	}
